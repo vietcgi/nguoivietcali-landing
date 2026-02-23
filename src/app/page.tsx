@@ -26,7 +26,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="mx-auto flex w-full max-w-6xl flex-col px-4 py-6 sm:px-6 lg:px-8">
-        <header className="mb-10 border-b border-red-100 pb-5">
+        <header className="mb-10 border-b border-blue-100 pb-5">
           <p className="text-xl font-extrabold tracking-tight text-gray-900 sm:text-2xl">
             Người Việt Cali
           </p>
@@ -35,11 +35,11 @@ export default function HomePage() {
           </p>
         </header>
 
-        <section className="relative overflow-hidden rounded-2xl border border-red-100 bg-gradient-to-br from-white via-red-50/40 to-white px-5 py-10 sm:px-8 sm:py-12">
-          <div className="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-red-100 blur-2xl" />
-          <div className="absolute -bottom-16 left-0 h-36 w-36 rounded-full bg-red-50 blur-2xl" />
+        <section className="relative overflow-hidden rounded-2xl border border-blue-100 bg-gradient-to-br from-white via-blue-50/40 to-white px-5 py-10 sm:px-8 sm:py-12">
+          <div className="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-blue-100 blur-2xl" />
+          <div className="absolute -bottom-16 left-0 h-36 w-36 rounded-full bg-blue-50 blur-2xl" />
           <div className="relative">
-            <span className="inline-flex items-center rounded-full border border-red-200 bg-white px-3 py-1 text-xs font-semibold text-red-700">
+            <span className="inline-flex items-center rounded-full border border-blue-200 bg-white px-3 py-1 text-xs font-semibold text-blue-700">
               Cộng đồng Việt tại California
             </span>
             <h1 className="mt-4 text-3xl font-black leading-tight tracking-tight text-gray-900 sm:text-5xl">
@@ -52,7 +52,7 @@ export default function HomePage() {
               href="https://www.facebook.com/groups/1205665560928886"
               target="_blank"
               rel="noreferrer"
-              className="mt-6 inline-flex items-center justify-center rounded-xl bg-red-600 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-red-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 sm:text-base"
+              className="mt-6 inline-flex items-center justify-center rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 sm:text-base"
             >
               Tham gia ngay →
             </a>
@@ -63,9 +63,9 @@ export default function HomePage() {
           {features.map((feature) => (
             <article
               key={feature.title}
-              className="rounded-2xl border border-gray-200 bg-white p-5 shadow-[0_8px_30px_-20px_rgba(220,38,38,0.25)]"
+              className="rounded-2xl border border-gray-200 bg-white p-5 shadow-[0_8px_30px_-20px_rgba(37,99,235,0.15)]"
             >
-              <div className="mb-3 h-1.5 w-12 rounded-full bg-red-600" />
+              <div className="mb-3 h-1.5 w-12 rounded-full bg-blue-600" />
               <h2 className="text-lg font-bold text-gray-900">{feature.title}</h2>
               <p className="mt-2 text-sm leading-6 text-gray-600">
                 {feature.description}
@@ -74,12 +74,12 @@ export default function HomePage() {
           ))}
         </section>
 
-        <section className="mt-10 rounded-2xl border border-red-100 bg-white p-4 sm:p-6">
+        <section className="mt-10 rounded-2xl border border-blue-100 bg-white p-4 sm:p-6">
           <div className="grid gap-3 sm:grid-cols-3">
             {stats.map((stat) => (
               <div
                 key={stat}
-                className="rounded-xl bg-red-50 px-4 py-4 text-center text-sm font-semibold text-red-800 sm:text-base"
+                className="rounded-xl bg-blue-50 px-4 py-4 text-center text-sm font-semibold text-blue-800 sm:text-base"
               >
                 {stat}
               </div>
