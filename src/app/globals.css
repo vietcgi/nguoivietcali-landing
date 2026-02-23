@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --brand-red: #dc2626;
+  --brand-red-dark: #b91c1c;
+}
+
+body {
+  background: #ffffff;
+  color: #111827;
+}
+
+::selection {
+  background: #fecaca;
+  color: #7f1d1d;
+}
+
