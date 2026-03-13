@@ -148,6 +148,22 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Blog Section */}
+      <section className="relative z-10 mx-auto mt-20 max-w-5xl px-6 sm:px-10">
+        <div className="rounded-3xl border border-amber-500/20 bg-gradient-to-br from-amber-500/5 via-transparent to-transparent p-8 sm:p-12">
+          <h2 className="text-2xl font-black text-white sm:text-3xl mb-3">Câu chuyện từ cộng đồng</h2>
+          <p className="text-sm text-white/60 mb-6">
+            Black April, Little Saigon, và những câu chuyện từ thế hệ người tị nạn Vietnamese-American
+          </p>
+          <a
+            href="/blog"
+            className="inline-flex items-center justify-center rounded-lg border border-amber-500/30 bg-amber-500/10 px-6 py-2.5 text-sm font-semibold text-amber-400 hover:bg-amber-500/20 transition"
+          >
+            Đọc Blog →
+          </a>
+        </div>
+      </section>
+
       {/* CTA Banner */}
       <section className="relative z-10 mx-auto mt-20 max-w-5xl px-6 pb-20 sm:px-10">
         <div className="relative overflow-hidden rounded-3xl border border-amber-500/20 bg-gradient-to-br from-amber-500/10 via-amber-600/5 to-transparent p-8 text-center sm:p-12">
